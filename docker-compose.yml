@@ -14,7 +14,7 @@ services:
 
  httpd:
   build:
-   context: ./www
+   context: .
    dockerfile: Dockerfile
   ports:
    - 80:80
